@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriSafe | Smart Farmer Safety</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">🌱 AgriSafe</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">SMART AGRICULTURE SAFETY</span>
+        <h1>Safer Fields.<br>Safer Farmers.</h1>
+        <p>
+          IoT-based snake detection and instant alerts
+          designed to help protect farmers and reduce snakebite risk.
+        </p>
+        <a class="btn" href="#features">Explore AgriSafe</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <span class="eyebrow">ABOUT OUR VENTURE</span>
+        <h2>Protecting the people who feed us</h2>
+        <p>
+          AgriSafe is a proposed IoT-based early warning system
+          designed to detect snakes in agricultural areas and alert
+          farmers through an alarm and mobile notifications.
+          Our goal is to make farm work safer and give farmers
+          greater peace of mind.
+        </p>
+      </div>
+      <div class="about-card">
+        <span class="big-icon">🌾</span>
+        <h3>Safety meets technology</h3>
+        <p>Smart monitoring for safer agricultural environments.</p>
+      </div>
+    </section>
+
+    <section id="features" class="section features">
+      <span class="eyebrow">WHAT WE OFFER</span>
+      <h2>AgriSafe Features</h2>
+      <p class="section-intro">
+        Designed to support early warning and safer farming.
+      </p>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">🔎</span>
+          <h3>Snake Detection</h3>
+          <p>Sensors monitor selected areas around the field for possible snake activity.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon">🔔</span>
+          <h3>Instant Alarm</h3>
+          <p>A buzzer can warn nearby farmers when the detection system is triggered.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon">📱</span>
+          <h3>Mobile Alerts</h3>
+          <p>Connected hardware can send warning notifications to a farmer's phone.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon">🛡️</span>
+          <h3>Farmer Safety</h3>
+          <p>Early warnings can help farmers avoid a potentially dangerous area.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section process">
+      <span class="eyebrow">SIMPLE PROCESS</span>
+      <h2>How AgriSafe Works</h2>
+
+      <div class="steps">
+        <div class="step">
+          <span>01</span>
+          <h3>Detect</h3>
+          <p>Sensors monitor selected locations around the field.</p>
+        </div>
+        <div class="step">
+          <span>02</span>
+          <h3>Alert</h3>
+          <p>The system activates an alarm when detection is triggered.</p>
+        </div>
+        <div class="step">
+          <span>03</span>
+          <h3>Notify</h3>
+          <p>A connected device sends an alert to the farmer's phone.</p>
+        </div>
+      </div>
+      <p class="note">
+        Note: Actual detection accuracy and mobile alerts depend on the
+        sensors, hardware, and communication modules implemented.
+      </p>
+    </section>
+
+    <section class="safety-banner">
+      <h2>Every farmer deserves a safer field.</h2>
+      <p>AgriSafe aims to bring smart safety technology closer to farmers.</p>
+      <a class="btn btn-light" href="#contact">Get in Touch</a>
+    </section>
+
+    <section id="contact" class="section contact">
+      <span class="eyebrow">CONTACT US</span>
+      <h2>Let's make farming safer</h2>
+      <p>Have a question or want to learn more about AgriSafe?</p>
+
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text"
+               placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email"
+               placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4"
+                  placeholder="Write your message" required></textarea>
+
+        <button class="btn" type="submit">Send Message</button>
+        <p id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">🌱 AgriSafe</a>
+    <p>Smart Agriculture Safety | Safer Fields, Safer Farmers</p>
+    <p class="copyright">© <span id="year"></span> AgriSafe. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
